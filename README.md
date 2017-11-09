@@ -1,8 +1,10 @@
 # Sample - Mobility App
 
-:exclamation: **This app was made at Coovia.**
-:exclamation: **All code is the property of Coovia.**
-:exclamation: **Some code has been hidden to preserve confidentiality.**
+**This app was made during my employment at Coovia.**
+
+:exclamation: **All code is the property of Coovia.** :exclamation:
+
+**Some code has been removed to preserve confidentiality.**
 
 ## Context
 
