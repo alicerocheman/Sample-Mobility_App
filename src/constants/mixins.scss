@@ -1,0 +1,73 @@
+@import './colors.scss';
+
+// scss-lint:disable VendorPrefix
+@mixin material-shadow() {
+  -webkit-box-shadow: $shadow 0 1px 6px, $shadow 0 1px 4px;
+  -moz-box-shadow: $shadow 0 1px 6px, $shadow 0 1px 4px;
+  -ms-box-shadow: $shadow 0 1px 6px, $shadow 0 1px 4px;
+  box-shadow: $shadow 0 1px 6px, $shadow 0 1px 4px;
+}
+
+@mixin material-shadow-reversed() {
+  -webkit-box-shadow: $shadow 0 -1px 6px, $shadow 0 -1px 4px !important;
+  -moz-box-shadow: $shadow 0 -1px 6px, $shadow 0 -1px 4px !important;
+  -ms-box-shadow: $shadow 0 -1px 6px, $shadow 0 -1px 4px !important;
+  box-shadow: $shadow 0 -1px 6px, $shadow 0 -1px 4px !important;
+}
+
+@mixin material-transition() {
+  transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+}
+
+@mixin linear-gradient($angle, $color-stops...) {
+  $_angle-with-vendor-prefix: '';
+  $_angle: '';
+  @if $angle == 'to top' or $angle == 'bottom' {
+    $_angle-with-vendor-prefix: bottom;
+    $_angle: to top;
+  } @else if $angle == 'to right' or $angle == 'left' {
+    $_angle-with-vendor-prefix: left;
+    $_angle: to right;
+  } @else if $angle == 'to bottom' or $angle == 'top' {
+    $_angle-with-vendor-prefix: top;
+    $_angle: to bottom;
+  } @else if $angle == 'to left' or $angle == 'right' {
+    $_angle-with-vendor-prefix: right;
+    $_angle: to left;
+  } @else if $angle == 'to top right' or $angle == 'bottom left' {
+    $_angle-with-vendor-prefix: bottom left;
+    $_angle: to top right;
+  } @else if $angle == 'to bottom right' or $angle == 'top left' {
+    $_angle-with-vendor-prefix: top left;
+    $_angle: to bottom right;
+  } @else if $angle == 'to bottom left' or $angle == 'top right' {
+    $_angle-with-vendor-prefix: top right;
+    $_angle: to bottom left;
+  } @else if $angle == 'to top left' or $angle == 'bottom right' {
+    $_angle-with-vendor-prefix: bottom right;
+    $_angle: to top left;
+  } @else {
+    $_angle-with-vendor-prefix: $angle % 360;
+    $_angle: (90 - $angle) % 360;
+  }
+  background: -webkit-linear-gradient($_angle-with-vendor-prefix, $color-stops);
+  background: -moz-linear-gradient($_angle-with-vendor-prefix, $color-stops);
+  background: -o-linear-gradient($_angle-with-vendor-prefix, $color-stops);
+  background: linear-gradient($_angle, $color-stops);
+}
+
+@mixin rotate-and-scale($angle,$size) {
+  -webkit-transform: rotate($angle) scale($size);
+  -moz-transform: rotate($angle) scale($size);
+  -ms-transform: rotate($angle) scale($size);
+  transform: rotate($angle) scale($size);
+}
+
+@mixin translate($x, $y) {
+  -webkit-transform: translate($x, $y);
+  -moz-transform: translate($x, $y);
+  -ms-transform: translate($x, $y);
+  transform: translate($x, $y);
+}
+
+// scss-lint:enable VendorPrefix

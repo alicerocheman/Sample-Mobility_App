@@ -1,0 +1,37 @@
+@import 'src/constants/colors.scss';
+@import 'src/constants/mixins.scss';
+@import 'src/constants/sizes.scss';
+
+.header {
+  align-items: center;
+  background: $black;
+  color: $white;
+  display: flex;
+  height: $header-height;
+  justify-content: space-between;
+  line-height: 1.9rem;
+  max-height: 54px;
+
+  .header-title {
+    font-size: 1.2rem;
+    font-weight: 100;
+    margin: 0;
+  }
+
+  &--main,
+  &--limited {
+    @include material-shadow;
+  }
+
+  &--limited {
+    .header-title {
+      font-size: 1.4rem;
+      margin-left: 1rem;
+    }
+  }
+
+  &--contextual {
+    background-color: $white;
+    color: $black;
+  }
+}

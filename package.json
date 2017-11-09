@@ -1,0 +1,70 @@
+{
+  "name": "coovia-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": {
+    "/api": {
+      "target": "http://localhost:8000",
+      "ws": true,
+      "pathRewrite": {
+        "^/api": ""
+      }
+    }
+  },
+  "dependencies": {
+    "axios": "^0.16.1",
+    "cleave.js": "^1.0.1",
+    "history": "^4.7.2",
+    "leaflet": "^1.0.3",
+    "lodash": "^4.17.4",
+    "material-ui": "^0.19.4",
+    "prop-types": "^15.5.10",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-helmet": "^5.0.3",
+    "react-intl": "^2.1.5",
+    "react-leaflet": "^1.3.0",
+    "react-linkify": "^0.2.1",
+    "react-places-autocomplete": "^5.3.1",
+    "react-redux": "^5.0.6",
+    "react-router-dom": "^4.2.2",
+    "react-router-redux": "^5.0.0-alpha.6",
+    "react-tap-event-plugin": "^2.0.1",
+    "redux": "^3.7.2",
+    "redux-form": "^7.1.1",
+    "redux-form-material-ui": "^4.3.0",
+    "redux-immutable-state-invariant": "^2.0.0",
+    "redux-logger": "^3.0.1",
+    "redux-multi": "^0.1.12",
+    "redux-promise-middleware": "^4.2.0",
+    "redux-thunk": "^2.2.0",
+    "roboto-fontface": "^0.7.0",
+    "simplify-js": "^1.2.1",
+    "uuid": "^3.1.0"
+  },
+  "devDependencies": {
+    "axios-mock-adapter": "^1.8.1",
+    "babel-eslint": "^7.2.3",
+    "eslint": "^4.0.0-rc.0",
+    "eslint-config-react-app": "^1.0.5",
+    "eslint-plugin-flowtype": "^2.36.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.4.0",
+    "intl": "^1.2.5",
+    "node-sass": "^4.5.3",
+    "npm-run-all": "^4.0.2",
+    "react-scripts": "^1.0.14"
+  },
+  "scripts": {
+    "build-css": "node-sass src/ -o src/",
+    "watch-css":
+      "npm run build-css && node-sass src/ -o src/ --watch --recursive",
+    "start-js": "react-scripts start",
+    "start": "npm-run-all -p watch-css start-js",
+    "build": "npm run build-css && react-scripts build",
+    "build-hybrid": "./scripts/build-hybrid.sh",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

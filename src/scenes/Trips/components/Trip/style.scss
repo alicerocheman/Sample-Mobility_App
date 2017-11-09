@@ -1,0 +1,129 @@
+@import 'src/constants/colors.scss';
+@import 'src/constants/sizes.scss';
+
+.trip-data {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  .trip {
+    display: flex;
+    height: 4rem;
+    justify-content: center;
+
+    @media (max-width: $xs-width-min) {
+      height: 3rem;
+    }
+
+    .days-container {
+      .badge {
+        margin-right: 2px;
+        padding: 12px !important;
+        text-align: center;
+
+        @media (max-width: $xs-width-min) {
+          padding: 8px 11px 8px 8px !important;
+
+          span {
+            font-size: 8px !important;
+            height: 16px !important;
+            width: 16px !important;
+          }
+        }
+      }
+    }
+
+    .time-container, .days-container {
+      align-items: center;
+      display: flex;
+      flex-grow: 1;
+      justify-content: center;
+
+      @media (max-width: $xs-width-min) {
+        font-size: .8rem;
+      }
+    }
+
+    .time-container {
+      flex-basis: 3rem;
+    }
+
+    .arrow-end {
+      border-bottom: 2rem solid;
+      border-left-width: 1rem;
+      border-right-width: 1rem;
+      border-top: 2rem solid;
+
+      @media (max-width: $xs-width-min) {
+        border-bottom-width: 1.5rem;
+        border-left-width: .75rem;
+        border-right-width: .75rem;
+        border-top-width: 1.5rem;
+      }
+    }
+
+    &.trip-go {
+      background-color: $grey100;
+
+      .days-container {
+        padding-left: 1rem;
+
+        @media (max-width: $xs-width-min) {
+          padding-left: .75rem;
+        }
+      }
+
+      .arrow-body {
+        background-color: $grey200;
+      }
+
+      .arrow-end {
+        border-color: $grey100;
+        border-left-color: $grey200;
+        border-left-style: solid;
+      }
+    }
+
+    &.trip-return {
+      background-color: $grey200;
+      flex-direction: row-reverse;
+
+      .days-container {
+        flex-direction: row !important;
+        padding-right: 1rem;
+
+        @media (max-width: $xs-width-min) {
+          padding-right: .75rem;
+        }
+      }
+
+      .arrow-body {
+        background-color: $grey100;
+        flex-direction: row-reverse;
+      }
+
+      .arrow-end {
+        border-color: $grey200;
+        border-right-color: $grey100;
+        border-right-style: solid;
+      }
+    }
+
+    .place {
+      align-items: center;
+      display: flex;
+      flex-grow: 0;
+      justify-content: center;
+      padding: 0 .5rem;
+
+      &.origin {
+        background-color: $grey200;
+        flex-direction: row-reverse;
+      }
+
+      &.destination {
+        background-color: $grey100;
+      }
+    }
+  }
+}

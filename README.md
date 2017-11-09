@@ -68,7 +68,7 @@ My first ambition was to work in a test-driven development environment. Unfortun
 ## Conclusion
 After a year, this ambitious project remains unfinished, due to difficulties with the very small workforce at hand and with management and financial issues in the company itself.
 The app works though, and can be checked out [here](https://refonte.coovia.fr).
-Due to confidentiality issues, the current repository does not contain the whole code (it lacks any code I didn't personnaly write, as well as random code). It does however contain all the files (some have been emptied of their content) so the architecture can be appreciated.
+Due to confidentiality issues, the current repository does not contain the whole code (it lacks any code I didn't personnaly write, as well as irrelevant and random code). It does however contain all the files (some have been emptied of their content) so the architecture can be appreciated.
 
 Appart from this, it was an incredible learning experience for me, as well as a very successful human collaboration. I was told several time that the work I did was improving the working environment of my coworkers and that feels great.
 

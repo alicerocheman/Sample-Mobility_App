@@ -1,0 +1,24 @@
+.header {
+  align-items: center;
+  background: #3c3c3c;
+  color: #f5f5f5;
+  display: flex;
+  height: 58px;
+  justify-content: space-between;
+  line-height: 1.9rem;
+  max-height: 54px; }
+  .header .header-title {
+    font-size: 1.2rem;
+    font-weight: 100;
+    margin: 0; }
+  .header--main, .header--limited {
+    -webkit-box-shadow: rgba(0, 0, 0, 0.12) 0 1px 6px, rgba(0, 0, 0, 0.12) 0 1px 4px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.12) 0 1px 6px, rgba(0, 0, 0, 0.12) 0 1px 4px;
+    -ms-box-shadow: rgba(0, 0, 0, 0.12) 0 1px 6px, rgba(0, 0, 0, 0.12) 0 1px 4px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0 1px 6px, rgba(0, 0, 0, 0.12) 0 1px 4px; }
+  .header--limited .header-title {
+    font-size: 1.4rem;
+    margin-left: 1rem; }
+  .header--contextual {
+    background-color: #f5f5f5;
+    color: #3c3c3c; }
