@@ -8,9 +8,12 @@
 
 ## TL;DR
 This is the description of the work I have done on this mobility project.
+
 I will start by explaining the context of my work at Coovia.
+
 Then I will describe my work in project management.
-Finally I will explain my technological work.
+
+Finally I will explain my technical work.
 
 ## Context
 
@@ -38,7 +41,7 @@ At first my role regarding the Agile Methods was quite blurry to me. I was the o
 
 With time, I understood that my role should be limited to Product Owner (and developer of course) because I was the one who knew the project inside and out, its user stories, its priorities etc. With the help of a co-developer on the BackEnd we managed to estimate the backlog of the whole project, Front and Back. We realized the project was far more advanced than we thought, it would only take 3 months top to release the first version. That's when we learnt that for reasons unrelated to our work, the company was not going to be able to support this project anymore.
 
-## Technological Work
+## Technical Work
 
 ### Technological choices
 I consulted with my fellow developers to choose the best and most suitable technologies for the new app. After reviewing the different possibilities, we agreed on React+Redux for the FrontEnd. Django was the CTO's choice for the BackEnd, against the rest of the team's preference for a full javascript stack with nodeJS. The CTO didn't know javascript and didn't trust Node's capability for a complex BackEnd so we followed his wishes.
