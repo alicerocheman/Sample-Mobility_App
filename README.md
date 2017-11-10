@@ -17,7 +17,9 @@ Finally I will explain my technical work.
 
 ## Context
 
-When I arrived in August 2016, Coovia had a 4 years-old hybrid app. At this stage my job was merely to maintain and improve that app's FrontEnd which used the AngularJS (1.x) framework. I made quite a few changes, mostly to improve User Experience (clarity of the scenes, forms, map itineraries, etc)
+When I arrived in August 2016, Coovia had a 4 years-old hybrid app. The app combined public transportation and carpooling for short distance travel such as home/work commute.
+
+At this stage my job was merely to maintain and improve that app's FrontEnd which used the AngularJS (1.x) framework. I made quite a few changes, mostly to improve User Experience (clarity of the scenes, forms, map itineraries, etc)
 
 But there was an ongoing discussion between the CEO, CTO and developers about recasting the entire app, for scalability and maintenance reasons. Given that the recast was agreed on but nothing was moving forward, I offered to start the gathering of needs in order to begin the process. I ended up taking charge of the whole project.
 
