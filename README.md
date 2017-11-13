@@ -1,10 +1,12 @@
 # Sample - Mobility App
 
+[Pour le français, cliquer ici](ttps://github.com/alicerocheman/Sample-Mobility_App/blob/master/LISEZMOI.md)
+
 **This app was made during my employment at Coovia.**
 
 :exclamation: **All code is the property of Coovia.** :exclamation:
 
-**Some code has been removed to preserve confidentiality.**
+**Some code has been removed to preserve confidentiality. Files/folders that contain no code are taggued _REDACTED**
 
 ## TL;DR
 This is the description of the work I have done on this mobility project.
@@ -14,6 +16,8 @@ I will start by explaining the context of my work at Coovia.
 Then I will describe my work in project management.
 
 Finally I will explain my technical work.
+
+___
 
 ## Context
 
@@ -55,13 +59,15 @@ Later on, my protégé suggested reducing the huge stack we were using to go for
 
 ### All the new tools
 The first step was to learn about all the new tools I had picked, discarding the "false good ideas".
+
 Everything was new to me, from React to Redux.
-I had been studying ES6 for my own personal knowledge so this was the easiest part.
-I made a router with [React Router](https://github.com/ReactTraining/react-router/tree/master/packages/react-router), which I'd never done before either. The routing had always already been in place in my previous jobs and I never had to touch anything in that regard. Later on React Router released a new and improved version and I had to re-learn and re-implement the whole routing. Suffice to say that I've learnt a lot about React Router!
-I tried tweeking the [Webpack](https://webpack.github.io/) configuration but I didn't work on it enough to become any kind of expert on that matter.
-I implemented internationlization with [React Intl](https://github.com/yahoo/react-intl) which was quite tricky. I'd never worked with any kind of internalization before. This was a very interesting aspect of my work and I'm happy to have aquired this knowledge. Living in France, it seems to me that any web tool available to the public should at least be available in English.
-My amazing apprentice found out about [Redux Form](https://redux-form.com/7.1.2/) and implemented it to take control of the forms in the app.
-In order to save time in design work and development, I used [Material UI](http://www.material-ui.com/#/)'s [React Components](https://github.com/callemall/material-ui) for many elements. It turned out to be a lot of work to personalize (because of the mandatory inline style) and to maintain. Furthermore it has known performance issues.
+
+* I had been studying ES6 for my own personal knowledge so this was the easiest part.
+* I made a router with [React Router](https://github.com/ReactTraining/react-router/tree/master/packages/react-router), which I'd never done before either. The routing had always already been in place in my previous jobs and I never had to touch anything in that regard. Later on React Router released a new and improved version and I had to re-learn and re-implement the whole routing. Suffice to say that I've learnt a lot about React Router!
+* I tried tweeking the [Webpack](https://webpack.github.io/) configuration but I didn't work on it enough to become any kind of expert on that matter.
+* I implemented internationalization with [React Intl](https://github.com/yahoo/react-intl) which was quite tricky. I'd never worked with any kind of internalization before. This was a very interesting aspect of my work and I'm happy to have aquired this knowledge. Living in France, it seems to me that any web tool available to the public should at least be available in English.
+* My amazing apprentice found out about [Redux Form](https://redux-form.com/7.1.2/) and implemented it to take control of the forms in the app.
+* In order to save time in design work and development, I used [Material UI](http://www.material-ui.com/#/)'s [React Components](https://github.com/callemall/material-ui) for many elements. It turned out to be a lot of work to personalize (because of the mandatory inline style) and to maintain. Furthermore it has known performance issues.
 
 I also tried to structure the components (and files) that would ease readability and maintenance, to the delight of the 2 other developers who worked on the project's FrontEnd later on and found it well organized and easy to apprehend. Inspiration was found on [this awesome article](https://medium.com/@alexmngn/how-to-better-organize-your-react-applications-2fd3ea1920f1).
 
