@@ -1,7 +1,7 @@
 # Echantillon - Application Mobilité
 (=Sample - Mobility App)
 
-[For English, click here](ttps://github.com/alicerocheman/Sample-Mobility_App/blob/master/README.md)
+[For English, click here](https://github.com/alicerocheman/Sample-Mobility_App/blob/master/README.md)
 
 **Cette application a été réalisée dans le cadre de mon emploi chez Coovia.**
 

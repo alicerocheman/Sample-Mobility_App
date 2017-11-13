@@ -1,6 +1,6 @@
 # Sample - Mobility App
 
-[Pour le français, cliquer ici](ttps://github.com/alicerocheman/Sample-Mobility_App/blob/master/LISEZMOI.md)
+[Pour le français, cliquer ici](https://github.com/alicerocheman/Sample-Mobility_App/blob/master/LISEZMOI.md)
 
 **This app was made during my employment at Coovia.**
 
