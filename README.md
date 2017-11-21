@@ -37,7 +37,7 @@ I thoroughly talked to everyone in the company and I come up with a list of user
 ### Design
 Once the user stories were validated I started designing the new app, adding quite a few functional changes compared to the old app.
 
-Unfortunately due to my lack of experience my initial designs were incomplete. I would realize this a few months later and work on new and improved versions for the main, more complex pages. For this purpose I sought the help of an experienced designer whom I consulted on my work. A prototype is available [on InVision](https://invis.io/UNCOWKSPA).
+Unfortunately due to my lack of experience my initial designs were incomplete. I would realize this a few months later and work on new and improved versions for the main, more complex pages. For this purpose I sought the help of an experienced designer whom I consulted on my work. A prototype is available [on InVision](https://invis.io/72EKUHRB8).
 
 ### Tutoring
 With the consent of the CEO and CTO I recruited @mathieux51 as a junior developer to help me on the FrontEnd development of the app. He's a smart yound man who has a master in Physics, but chose to redirect his career towards web development. He is at school 1 week each month, the rest he spends with us. I am very proud of having found him out of the many applicants. I've been tutoring him trying to make the best of his abilities for the project as well as helping him grow as a new developer. He's also offered me a much needed perspective on the quality and quantity of work I was putting into the project. I have immensely appreciated having him under my wing and I would love to do something similar again.
